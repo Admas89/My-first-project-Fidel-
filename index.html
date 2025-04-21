@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Write Ethiopian Fidel (ፊደል)!</title>
+    <link rel="preload" href="IMG_2397.jpg" as="image" type="image/jpeg">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" as="style">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:#09df5b;
+            }
+        header {
+        
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+    
+            background-color: #09df5b;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        }
+       
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .book {
+            background: #f30707;
+            margin: 5px 0;
+            padding: 5px;
+            border: 0.5px solid #f30707;
+            border-radius: 2px;
+        }
+        .book img {
+            float: left;
+            margin-right: 5px;
+        }
+        .book h3 {
+            margin: 0;
+            padding: 0;
+        }
+        .book p {
+            margin: 10px 0;
+        }
+        .book .price {
+            color: #e5e90e;
+            font-weight: bold;
+        }
+        nav a:hover span {
+            visibility: visible;
+        }
+        @keyframes rotate {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+         }
+         .rotating-image {
+            animation: rotate 5s linear infinite;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            border-radius: 50%;
+            border: 2px solid #09df5b;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);    
+        }
+        #rotatingImage {
+            animation: rotate 5s linear infinite;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 2px solid #09df5b;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+        #searchBar {
+            padding: 10px;
+            width: 50%;
+            margin: 20px auto;
+            display: block;
+            text-align: center;
+        }
+    </style>
+    <style>
+        .container {
+            margin-bottom: 200px; /* Add extra space to prevent overlap */
+        }
+    </style>
+    <style>
+        .btn {
+            border-radius: 5px; /* Rounded corners */
+            padding: 10px 20px; /* Consistent padding */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+    </style>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+    <style>
+        footer {
+            padding: 5px 0; /* Reduce padding */
+            font-size: 0.8rem; /* Reduce font size */
+            line-height: 1.5; /* Adjust line height */
+        }
+    </style>
+    <style>
+        .container {
+            margin-bottom: 200px; /* Prevent footer overlap */
+        }
+    </style>
+    <style>
+        #searchBar {
+            background-color: yellow; /* Set background to yellow */
+            color: red; /* Set text color to red */
+            font-weight: bold; /* Make the text bold for better visibility */
+        }
+    </style>
+    <style>
+        header h1 {
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            color: #ffffff; /* Bright white color */
+            text-shadow: 0 0 10px #f0e003, 0 0 20px #ecf005, 0 0 30px #e2f108; /* Add glowing effect */
+            margin: 0;
+            padding: 0;
+            visibility: visible; /* Ensure it's visible immediately */
+        }
+    </style>
+    <style>
+        .book h3 {
+            font-size: 1.5rem; /* Increase font size */
+            font-weight: bold; /* Make the text bold */
+            color: #ceb8db; /* Change text color to a more vibrant shade */
+            text-shadow: 1px 1px 2px rgba(17, 1, 1, 0.2); /* Add a subtle shadow */
+            margin-bottom: 10px; /* Add spacing below the heading */
+        }
+    </style>
+    <!-- Add this new style block to enhance the h3 elements -->
+    <style>
+        .book h3 {
+            font-size: 1.8rem; /* Slightly larger font size */
+            font-weight: bold; /* Keep the text bold */
+            color: #4a90e2; /* Use a more vibrant and modern color */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a stronger shadow for better visibility */
+            letter-spacing: 1px; /* Add spacing between letters for readability */
+            transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+        }
+
+        .book h3:hover {
+            color: #ff5722; /* Change color on hover */
+            transform: scale(1.1); /* Slightly enlarge the text on hover */
+        }
+    </style>
+    <!-- Add this new style block -->
+    <style>
+        .book {
+            display: flex; /* Use flexbox for alignment */
+            align-items: flex-start; /* Align items at the top */
+        }
+
+        .book img {
+            margin-right: 15px;/* Add spacing between the image and text */
+        }
+
+        .book h3, .book p {
+            margin: 0; /* Remove extra margin */
+            padding: 0; /* Remove extra padding */
+        }
+
+        .book .price {
+            margin-top: 5px; /* Add slight spacing between the title and price */
+            font-size: 1rem; /* Adjust font size for better readability */
+            color: #f0f00d; /* Ensure the price is clearly visible */
+        }
+    </style>
+    <style>
+        .book {
+            display: flex; /* Use flexbox for alignment */
+            align-items: flex-start; /* Align items at the top */
+            justify-content: space-between; /* Space out the content */
+            
+        }
+
+        .book .details {
+            flex-grow: 1; /* Allow the text to take up remaining space */
+        }
+
+        .book .price-author {
+            text-align: right; /* Align author and price to the right */
+        }
+    </style>
+    <!-- Add this new style block at the end of your <head> section -->
+    <style>
+        .book h3 {
+            display: block; /* Ensure the h3 is treated as a block element */
+            font-size: 1.5rem; /* Adjust font size for better readability */
+            font-weight: bold; /* Keep the text bold */
+            color: #4a90e2; /* Use a vibrant color */
+            margin: 0; /* Remove unnecessary margins */
+            padding: 0; /* Remove unnecessary padding */
+        }
+    </style>
+    
+    <style>
+        body {
+            overflow-y: scroll; /* Ensures vertical scrolling */
+        }
+    </style>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>How to Write Ethiopian Fidel (ፊደል) alphabet!</h1>
+        <img src="IMG_2397.jpg" alt="Fidel (ፊደል) Image" class="rotating-image" style="width: 50px; height: 50px; position: absolute; top: 10px; 
+        left: 10px; border-radius: 50%; border: 2px solid #09df5b; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+    </header>
+    <nav style="background-color: #0c0d0d; padding: 10px; text-align: center; position: relative; z-index: 1; margin-top: 60px;">
+        <a href="#home" style="color: white; margin: 0 15px; text-decoration: none; position: relative;">
+            Home
+            <span style="visibility: hidden; background-color: #555; color: #fff; text-align:center; border-radius: 5px;
+             padding: 5px; position: absolute; bottom: 30px; right: 50%; transform: translateX(-50%); white-space: nowrap; z-index: 1;">
+                Welcome to Fidel Write! Explore our collection of books and find your next great write.
+            </span>
+        </a>
+        <a href="#bookSelection" style="color:white; margin: 0 15px; text-decoration: none; position: relative;">  
+            Book Selection
+            <span style="visibility: hidden; background-color: #555; color: #fff; text-align: center;  border-radius: 5px;
+             padding: 5px; position: absolute; bottom: 30px; right: 50%; transform: translateX(-50%); white-space: nowrap; z-index: 1;">
+                Welcome to Fidel Write! Explore our collection of books and find your next great write.
+            </span>
+        </a>
+        <a href="#about" style="color: white; margin: 0 15px; text-decoration: none; position: relative;">  
+            About
+            <span style="visibility: hidden; background-color: #555; color: #fff; text-align: center; border-radius: 5px;
+             padding: 5px; position: absolute; bottom: 30px; right: 50%; transform: translateX(-50%); white-space: nowrap; z-index: 1;">
+                Welcome to Fidel Write! Explore our collection of books and find your next great write.
+            </span>
+        </a>
+        <a href="#contact" style="color: white; margin: 0 15px; text-decoration: none; position: relative;">
+            Contact
+            <span style="visibility: hidden; background-color: #555; color: #fff; text-align: center; border-radius: 5px;
+             padding: 5px; position: absolute; bottom: 30px; right: 50%; transform: translateX(-50%); white-space: nowrap; z-index: 1;">
+                Welcome to Fidel Write! Explore our collection of books and find your next great write.
+            </span>
+        </a>
+    </nav>
+    <div>
+        <input type="text" id="searchBar" placeholder="Search for books...">
+    </div>
+    <div class="container">
+        <div class="book">
+            <img src="IMG_2397.jpg" alt="Book 1" class="rotating-image with Fidel in grid layout">
+            <div class="details">
+                <h3>How to write Ethiopian<br> Fidel (ፊደል) Alphabet 1</h3>
+            </div>
+            <div class="price-author">
+                <p>Author Admas<br></p>
+                <p class="price">$10.00</p>
+            </div>
+        </div>
+        <div class="book">
+            <img src="IMG_2397.jpg" alt="Book 2" class="rotating-image with Fidel in grid layout">
+            <div class="details">
+                <h3>How to write Ethiopian<br> Fidel (ፊደል) Alphabet for Advance 2</h3></div>
+            <div class="price-author">
+                <p>Author Admas<br></p>
+                <p class="price">$15.00</p>   
+            </div>
+        </div>
+        <div class="book">
+            <img src="IMG_2397.jpg" alt="Book 3" class="rotating-image with Fidel in grid layout">
+            <div class="details">
+                <h3>How to write Ethiopian<br> Fidel (ፊደል) Alphabet for Kids 3</h3></div>  
+                <p>Author Admas<br></p>
+                <p class="price">$20.00</p>
+        </div>
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Placeholder 
+            Image" class="rotating-image withFidel in grid layout">
+            <div class="details">
+                <h3>Placeholder Book</h3></div>
+                <p>Author Placeholder Author<br></p>
+                <p class="price">$0.00</p>
+            </div>
+        <div class="book">
+            <img src="https://via.placeholder.com/150" alt="Placeholder 
+            Image" class="rotating-image withFidel in grid layout">
+            <div class="details">
+                <h3>Placeholder Book</h3></div>
+                <p>Author Placeholder Author<br></p>
+                <p class="price">$0.00</p>
+            </div>
+        </div>
+    <div style="text-align: center; margin: 100px 0;">
+        <img src="images/IMG_2397.jpg" alt="images/IMG_2397.jpg" id="images/IMG_2397.jpg" class="rotating-image"
+         style="width: 150px; height: 150px; border-radius: 50%; border: 2px solid #09df5b; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);" 
+         loading="lazy" class="img-fluid rounded-circle" 
+         alt="Fidel (ፊደል) Image" 
+         class="rotating-image with Fidel in grid layout"
+         style="width: 150px; height: 150px;">
+        <h3>Fidel (ፊደል) Image</h3>
+    </div>
+    <div id="home" style="padding: 20px; background-color: #f9f9f9;">
+        <h2>Home</h2>
+        <p>Welcome to Fidel (ፊደል) Write!
+            Your one-stop shop for learning how to read and write the Ethiopian Fidel (ፊደል) alphabet.
+             We make it easy to explore each character, understand the sounds,
+              and master the writing one level at a time. Whether you're starting from scratch or brushing up on
+               what you learned at home, FidelWrite is here to help.
+            .</p>
+        <p><strong>Advanced Thought:</strong> A home for Fidel Write is a home for ideas. At our Fidel Write Book, 
+            we believe every book has the power to ignite imagination and transform lives.</p>
+    </div>
+     <section id="bookSelection" class="container my-5" loading="lazy">
+        <h3 class="text-center mb-4">Select a Book</h3>
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2 col-sm-12">
+                <select id="bookDropdown" class="form-select mb-3">
+                    <option value="disabled selected">Select a book</option>
+                    <option value="book1">Learn Fidel (ፊደል) Alphabet Basics - $10.00</option>
+                    <option value="book2">Advanced Fidel (ፊደል) Alphabet Writing - $15.00</option>
+                    <option value="book3">Fidel (ፊደል) Alphabet for Kids - $20.00</option>
+                </select>
+                <div id="bookDetails" class="card  hidden">
+                    <img id="IMG_2397.jpg" src="IMG_2397.jpg" alt="IMG_2397.jpg" class="card-img-topS">
+                    <div class="card-body">
+                        <h5 id="bookTitle" class="card-title"></h5>
+                        <p id="bookAuthor" class="card-text"></p>
+                        <p id="bookPrice" class="text-danger fw-bold"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="about" style="padding: 20px; background-color: #e9e9e9;">
+        <h2>About Fidel (ፊደል) Write</h2>
+        <p>Fidel Write is a simple tool to help you learn how to write the Ethiopian Fidel (ፊደል) alphabet.
+             Whether you're a beginner or just practicing, we make learning accessible and easy for everyone.
+        </p>
+    </div>
+
+    <div id="contact" style="padding: 20px; background-color: #d9d9d9;">
+        <h2>Contact</h2>
+        <p>Have questions or feedback? Reach out anytime at contact@fidelwrite.com — we’re happy to help!</p>
+        <p><strong>Advanced Thought:</strong> Communication is the bridge that connects us all. Whether it's a question,
+         feedback, or a simple hello, your voice matters to us. Let's build a community of readers and writer together.</p>
+    </div>
+    <div class="container my-5" style="margin-bottom: 150px;">
+        <div class="row">
+   
+            <!-- Order Form -->
+            <div class="col-md-6">
+                <h3>Order Form</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="orderName" class="form-label">Name</label>
+                        <input type="text" id="orderName" class="form-control" placeholder="Enter your name" aria-label="Name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderEmail" class="form-label">Email</label>
+                        <input type="email" id="orderEmail" class="form-control" placeholder="Enter your email" aria-label="Email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderBook" class="form-label">Book Title</label>
+                        <input type="text" class="form-control" id="orderBook" placeholder="Enter the book title">
+                    </div>
+                    <div class="mb-3">
+                        <label for="orderQuantity" class="form-label">Quantity</label>
+                        <input type="number" class="form-control" id="orderQuantity" placeholder="Enter quantity">
+                    </div>
+
+                    <!-- Add Shipping Address Fields -->
+                    <div class="mb-3">
+                        <label for="shippingAddress" class="form-label">Shipping Address</label>
+                        <textarea class="form-control" id="shippingAddress" rows="3" placeholder="Enter your shipping address"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="shippingCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="shippingCity" placeholder="Enter your city">
+                    </div>
+                    <div class="mb-3">
+                        <label for="shippingPostalCode" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="shippingPostalCode" placeholder="Enter your postal code">
+                    </div>
+                    <div class="mb-3">
+                        <label for="shippingCountry" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="shippingCountry" placeholder="Enter your country">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit Order</button>
+                </form>
+            </div>
+
+            <!-- Return Form -->
+            <div class="col-md-6">
+                <h3>Return Form</h3>
+                <form>
+                    <div class="mb-3">
+                        <label for="returnName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="returnName" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="returnEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="returnEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="returnBook" class="form-label">Book Title</label>
+                        <input type="text" class="form-control" id="returnBook" placeholder="Enter the book title">
+                    </div>
+                    <div class="mb-3">
+                        <label for="returnReason" class="form-label">Reason for Return</label>
+                        <textarea class="form-control" id="returnReason" rows="3" placeholder="Enter the reason for return"></textarea>
+                    </div>
+
+                    <!-- Add Shipping Address Fields -->
+                    <div class="mb-3">
+                        <label for="returnShippingAddress" class="form-label">Shipping Address</label>
+                        <textarea class="form-control" id="returnShippingAddress" rows="3" placeholder="Enter your shipping address"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="returnShippingCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="returnShippingCity" placeholder="Enter your city">
+                    </div>
+                    <div class="mb-3">
+                        <label for="returnShippingPostalCode" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="returnShippingPostalCode" placeholder="Enter your postal code">
+                    </div>
+                    <div class="mb-3">
+                        <label for="returnShippingCountry" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="returnShippingCountry" placeholder="Enter your country">
+                    </div>
+
+                    <button type="submit" class="btn btn-danger w-25" style="margin-top: 2.5px;">Submit Return</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-light text-center py-2" style="position: fixed;
+     bottom: 0; width: 100%; box-shadow: 0 -2px 5px #0c0d0d; font-size: 0.9rem; line-height: 1.2;">
+        <p>&copy; 2023 How to Write Ethiopian Fidel (ፊደል) alphabet.All rights reserved.</p>
+        <p>
+            <a href="#home" style="color: #cbcbc9; text-decoration: none;font-weight: 100; margin: 0 2.5px;">Home</a>
+            <a href="#bookSelection" style="color: #cbcbc9; text-decoration: none;font-weight: 100; margin: 0 2.5px;">Book Selection</a>
+            <a href="#about" style="color: #cbcbc9; text-decoration: none;font-weight:100; margin: 0 2.5px; ">About</a>
+              <a href="#contact" style="color:#cbcbc9; text-decoration: none;font-weight:100; margin: 0 2.5px;">Contact</a>
+        </p>
+    </footer>
+    <script defer>
+        document.getElementById('searchBar').addEventListener('input', function () {
+            const searchValue = this.value.toLowerCase();
+            const books = document.querySelectorAll('.book');
+            let hasResults = false;
+
+            books.forEach((book) => {
+                const title = book.querySelector('h3').textContent.toLowerCase();
+                const author = book.querySelector('p').textContent.toLowerCase();
+
+                if (title.includes(searchValue) || author.includes(searchValue)) {
+                    book.style.display = '';
+                    hasResults = true;
+                } else {
+                    book.style.display = 'none';
+                }
+            });
+
+            if (!hasResults) {
+                alert('No books found matching your search.');
+            }
+        });
+poi;uy
+''
+        document.body.style.backgroundColor = '#09df5b';
+    </script>
+    <script>
+    // JavaScript to filter books dynamically
+    </script>
+    <script>
+        $(document).ready(function () {
+            // Animate the footer with a slide-up effect
+            $("footer").hide().slideDown(2000);
+        });
+    </script>
+    <script>
+        document.querySelector('header h1').style.animation = 'none';
+    </script>
+</body>
+</html>
